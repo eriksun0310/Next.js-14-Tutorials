@@ -1,5 +1,8 @@
 import Card from "@/components/card";
+import React from "react";
 
-export default function DefaultRevenueMetrics() {
-  return <Card>Default Revenue Metrics</Card>;
-}
+const DefaultRevenuePage = () => {
+  return <Card>Revenue Page</Card>;
+};
+
+export default DefaultRevenuePage;

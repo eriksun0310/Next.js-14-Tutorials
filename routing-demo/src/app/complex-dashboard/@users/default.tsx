@@ -1,5 +1,8 @@
 import Card from "@/components/card";
+import React from "react";
 
-export default function DefaultUserAnalytics() {
-  return <Card>Default User Analytics</Card>;
-}
+const DefaultUsersPage = () => {
+  return <Card>Users Page</Card>;
+};
+
+export default DefaultUsersPage;

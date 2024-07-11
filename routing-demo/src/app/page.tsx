@@ -1,12 +1,19 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
-      <h1>Welcome home!</h1>
-      <Link href="/blog">Blog</Link>
-      <Link href="/products">Products</Link>
-      <Link href="/news">News</Link>
+      <h1>Welcome Home</h1>
+      <div>
+        <Link href="/blog">Blog</Link>
+      </div>
+      <div>
+        <Link href="/product">Product</Link>
+      </div>
+      <div>
+        <Link href=" auth/register">Register</Link>
+      </div>
     </div>
   );
 }

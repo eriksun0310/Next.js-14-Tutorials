@@ -1,3 +1,7 @@
-export default function InterceptedF2() {
-  return <h1>(.) Intercepted F2 page</h1>;
-}
+import React from "react";
+
+const F2 = () => {
+  return <h1>1111 F2 Page</h1>;
+};
+
+export default F2;

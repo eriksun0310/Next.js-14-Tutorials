@@ -1,13 +1,14 @@
 import Card from "@/components/card";
 import Link from "next/link";
+import React from "react";
 
-export default function ArchivedNotifications() {
+const ArchivedNotificationsPage = () => {
   return (
     <Card>
-      <div>Archived notifications</div>
-      <div>
-        <Link href="/complex-dashboard">Default</Link>
-      </div>
+      <div>Archived Notifications</div>
+      <Link href="/complex-dashboard">Default</Link>
     </Card>
   );
-}
+};
+
+export default ArchivedNotificationsPage;

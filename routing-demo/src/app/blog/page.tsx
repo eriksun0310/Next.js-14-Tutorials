@@ -1,8 +1,16 @@
-export default async function Blog() {
-  await new Promise((resolve) => {
-    setTimeout(() => {
-      resolve("all blog posts");
-    }, 2000);
-  });
-  return <h1>My blog post count</h1>;
-}
+import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: '11111',
+};
+
+const Blog = () => {
+  return (
+    <>
+      <h1>Blog</h1>
+    </>
+  );
+};
+
+export default Blog;
