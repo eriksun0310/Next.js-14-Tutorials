@@ -17,7 +17,7 @@ export async function GET(request: NextRequest) {
   console.log("theme", theme);
   //取得cookie
   console.log(cookies().get("resultPerPage"));
-  return new Response("<h1>Profile Data</h1>", {
+  return new Response("<h1>Profile Data 111</h1>", {
     headers: {
       "Content-Type": "text/html",
       "Set-Cookie": "theme=dark", // 設定cookie
