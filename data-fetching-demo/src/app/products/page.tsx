@@ -9,7 +9,7 @@ type Product = {
 
 export default async function ProductsPage() {
   const productsResponse = await fetch("http://localhost:3001/products", {
-    next: { revalidate: 10 },
+    next: { revalidate: 10 }, // 10秒後重新请求数据
   });
   const cookieStore = cookies();
   const theme = cookieStore.get("theme");
